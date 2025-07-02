@@ -1,14 +1,14 @@
-#Create and activate the conda environment:
-   conda create -n ME5416_Project python=3.11 -y
-   conda activate ME5416_Project
+# Create and activate the conda environment:
+conda create -n ME5416_Project python=3.11 -y
+conda activate ME5416_Project
 
-#Install core numerical packages via conda:
+# Install core numerical packages via conda:
    conda install -c conda-forge numpy scipy tqdm -y
 
-#Install PyElastica with pip:
+# Install PyElastica with pip:
    pip install pyelastica
 
-#Install system dependencies for rendering:
+# Install system dependencies for rendering:
    sudo apt install povray ffmpeg
 
 # Octopus Arm Simulation
